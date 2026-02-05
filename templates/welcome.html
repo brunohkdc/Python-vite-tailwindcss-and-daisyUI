@@ -1,0 +1,29 @@
+{% load django_vite %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Home
+        </title>
+
+        {% vite_hmr_client %}
+        {% vite_asset 'static/js/main.js' %}
+
+    </head>
+    <body>
+
+        <div class="hero bg-base-200 min-h-screen">
+            <div class="hero-content text-center">
+                <div class="max-w-max">
+                    <h1 class="text-5xl font-bold">Welcome</h1>
+                    <p class="py-3 pb-10">
+                        My Blog App with Vite, Tailwind CSS, and DaisyUI.
+                    </p>
+                </div>
+            </div>   
+        </div>
+    </body>
+</html>
