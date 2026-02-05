@@ -1,2 +1,5 @@
-Download the codes. Run npm install.
-To run in dev environment. Run python manage.py runserver. Run npm run dev.
+Download the codes. Run npm install.<br />
+To run in dev environment.<br />
+Run python manage.py runserver.<br />
+and<br />
+Run npm run dev.
